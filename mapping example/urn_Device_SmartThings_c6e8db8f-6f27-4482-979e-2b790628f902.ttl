@@ -1,0 +1,2117 @@
+@prefix ic: <https://interconnectproject.eu/example/> .
+@prefix om: <http://www.wurvoc.org/vocabularies/om-1.8/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s4bldg: <https://saref.etsi.org/saref4bldg/> .
+@prefix s4ener: <https://saref.etsi.org/saref4ener/> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://interconnectproject.eu/example/building_urn:Building:SmartThings:d563d271-4855-4728-8367-cbfb205cf3da> a s4bldg:Building ;
+    s4bldg:hasSpace ic:room_urn-Room-SmartThings-38f802d2-bb3c-4bf4-ba28-23c5ae3a64d0 .
+
+ic:SmartSense_Button_2 a s4ener:Device ;
+    ic:hasDeviceType "SmartThings"^^xsd:string ;
+    ic:hasParentSerialNumber "urn:Device:SmartThings:4c73905f-b0a9-46d6-99df-11fd0a45498d"^^xsd:string ;
+    saref:hasManufacturer "Samsung"^^xsd:string ;
+    saref:hasModel "SmartSense Button"^^xsd:string ;
+    saref:makesMeasurement ic:measurement_SmartSense_Button_2__battery_lvl__0,
+        ic:measurement_SmartSense_Button_2__battery_lvl__1,
+        ic:measurement_SmartSense_Button_2__battery_lvl__10,
+        ic:measurement_SmartSense_Button_2__battery_lvl__100,
+        ic:measurement_SmartSense_Button_2__battery_lvl__101,
+        ic:measurement_SmartSense_Button_2__battery_lvl__102,
+        ic:measurement_SmartSense_Button_2__battery_lvl__103,
+        ic:measurement_SmartSense_Button_2__battery_lvl__104,
+        ic:measurement_SmartSense_Button_2__battery_lvl__105,
+        ic:measurement_SmartSense_Button_2__battery_lvl__106,
+        ic:measurement_SmartSense_Button_2__battery_lvl__107,
+        ic:measurement_SmartSense_Button_2__battery_lvl__108,
+        ic:measurement_SmartSense_Button_2__battery_lvl__109,
+        ic:measurement_SmartSense_Button_2__battery_lvl__11,
+        ic:measurement_SmartSense_Button_2__battery_lvl__110,
+        ic:measurement_SmartSense_Button_2__battery_lvl__111,
+        ic:measurement_SmartSense_Button_2__battery_lvl__112,
+        ic:measurement_SmartSense_Button_2__battery_lvl__113,
+        ic:measurement_SmartSense_Button_2__battery_lvl__114,
+        ic:measurement_SmartSense_Button_2__battery_lvl__115,
+        ic:measurement_SmartSense_Button_2__battery_lvl__116,
+        ic:measurement_SmartSense_Button_2__battery_lvl__117,
+        ic:measurement_SmartSense_Button_2__battery_lvl__118,
+        ic:measurement_SmartSense_Button_2__battery_lvl__119,
+        ic:measurement_SmartSense_Button_2__battery_lvl__12,
+        ic:measurement_SmartSense_Button_2__battery_lvl__120,
+        ic:measurement_SmartSense_Button_2__battery_lvl__121,
+        ic:measurement_SmartSense_Button_2__battery_lvl__122,
+        ic:measurement_SmartSense_Button_2__battery_lvl__123,
+        ic:measurement_SmartSense_Button_2__battery_lvl__124,
+        ic:measurement_SmartSense_Button_2__battery_lvl__125,
+        ic:measurement_SmartSense_Button_2__battery_lvl__126,
+        ic:measurement_SmartSense_Button_2__battery_lvl__127,
+        ic:measurement_SmartSense_Button_2__battery_lvl__128,
+        ic:measurement_SmartSense_Button_2__battery_lvl__129,
+        ic:measurement_SmartSense_Button_2__battery_lvl__13,
+        ic:measurement_SmartSense_Button_2__battery_lvl__130,
+        ic:measurement_SmartSense_Button_2__battery_lvl__131,
+        ic:measurement_SmartSense_Button_2__battery_lvl__132,
+        ic:measurement_SmartSense_Button_2__battery_lvl__133,
+        ic:measurement_SmartSense_Button_2__battery_lvl__134,
+        ic:measurement_SmartSense_Button_2__battery_lvl__135,
+        ic:measurement_SmartSense_Button_2__battery_lvl__136,
+        ic:measurement_SmartSense_Button_2__battery_lvl__137,
+        ic:measurement_SmartSense_Button_2__battery_lvl__138,
+        ic:measurement_SmartSense_Button_2__battery_lvl__139,
+        ic:measurement_SmartSense_Button_2__battery_lvl__14,
+        ic:measurement_SmartSense_Button_2__battery_lvl__140,
+        ic:measurement_SmartSense_Button_2__battery_lvl__141,
+        ic:measurement_SmartSense_Button_2__battery_lvl__142,
+        ic:measurement_SmartSense_Button_2__battery_lvl__143,
+        ic:measurement_SmartSense_Button_2__battery_lvl__144,
+        ic:measurement_SmartSense_Button_2__battery_lvl__145,
+        ic:measurement_SmartSense_Button_2__battery_lvl__146,
+        ic:measurement_SmartSense_Button_2__battery_lvl__147,
+        ic:measurement_SmartSense_Button_2__battery_lvl__148,
+        ic:measurement_SmartSense_Button_2__battery_lvl__15,
+        ic:measurement_SmartSense_Button_2__battery_lvl__16,
+        ic:measurement_SmartSense_Button_2__battery_lvl__17,
+        ic:measurement_SmartSense_Button_2__battery_lvl__18,
+        ic:measurement_SmartSense_Button_2__battery_lvl__19,
+        ic:measurement_SmartSense_Button_2__battery_lvl__2,
+        ic:measurement_SmartSense_Button_2__battery_lvl__20,
+        ic:measurement_SmartSense_Button_2__battery_lvl__21,
+        ic:measurement_SmartSense_Button_2__battery_lvl__22,
+        ic:measurement_SmartSense_Button_2__battery_lvl__23,
+        ic:measurement_SmartSense_Button_2__battery_lvl__24,
+        ic:measurement_SmartSense_Button_2__battery_lvl__25,
+        ic:measurement_SmartSense_Button_2__battery_lvl__26,
+        ic:measurement_SmartSense_Button_2__battery_lvl__27,
+        ic:measurement_SmartSense_Button_2__battery_lvl__28,
+        ic:measurement_SmartSense_Button_2__battery_lvl__29,
+        ic:measurement_SmartSense_Button_2__battery_lvl__3,
+        ic:measurement_SmartSense_Button_2__battery_lvl__30,
+        ic:measurement_SmartSense_Button_2__battery_lvl__31,
+        ic:measurement_SmartSense_Button_2__battery_lvl__32,
+        ic:measurement_SmartSense_Button_2__battery_lvl__33,
+        ic:measurement_SmartSense_Button_2__battery_lvl__34,
+        ic:measurement_SmartSense_Button_2__battery_lvl__35,
+        ic:measurement_SmartSense_Button_2__battery_lvl__36,
+        ic:measurement_SmartSense_Button_2__battery_lvl__37,
+        ic:measurement_SmartSense_Button_2__battery_lvl__38,
+        ic:measurement_SmartSense_Button_2__battery_lvl__39,
+        ic:measurement_SmartSense_Button_2__battery_lvl__4,
+        ic:measurement_SmartSense_Button_2__battery_lvl__40,
+        ic:measurement_SmartSense_Button_2__battery_lvl__41,
+        ic:measurement_SmartSense_Button_2__battery_lvl__42,
+        ic:measurement_SmartSense_Button_2__battery_lvl__43,
+        ic:measurement_SmartSense_Button_2__battery_lvl__44,
+        ic:measurement_SmartSense_Button_2__battery_lvl__45,
+        ic:measurement_SmartSense_Button_2__battery_lvl__46,
+        ic:measurement_SmartSense_Button_2__battery_lvl__47,
+        ic:measurement_SmartSense_Button_2__battery_lvl__48,
+        ic:measurement_SmartSense_Button_2__battery_lvl__49,
+        ic:measurement_SmartSense_Button_2__battery_lvl__5,
+        ic:measurement_SmartSense_Button_2__battery_lvl__50,
+        ic:measurement_SmartSense_Button_2__battery_lvl__51,
+        ic:measurement_SmartSense_Button_2__battery_lvl__52,
+        ic:measurement_SmartSense_Button_2__battery_lvl__53,
+        ic:measurement_SmartSense_Button_2__battery_lvl__54,
+        ic:measurement_SmartSense_Button_2__battery_lvl__55,
+        ic:measurement_SmartSense_Button_2__battery_lvl__56,
+        ic:measurement_SmartSense_Button_2__battery_lvl__57,
+        ic:measurement_SmartSense_Button_2__battery_lvl__58,
+        ic:measurement_SmartSense_Button_2__battery_lvl__59,
+        ic:measurement_SmartSense_Button_2__battery_lvl__6,
+        ic:measurement_SmartSense_Button_2__battery_lvl__60,
+        ic:measurement_SmartSense_Button_2__battery_lvl__61,
+        ic:measurement_SmartSense_Button_2__battery_lvl__62,
+        ic:measurement_SmartSense_Button_2__battery_lvl__63,
+        ic:measurement_SmartSense_Button_2__battery_lvl__64,
+        ic:measurement_SmartSense_Button_2__battery_lvl__65,
+        ic:measurement_SmartSense_Button_2__battery_lvl__66,
+        ic:measurement_SmartSense_Button_2__battery_lvl__67,
+        ic:measurement_SmartSense_Button_2__battery_lvl__68,
+        ic:measurement_SmartSense_Button_2__battery_lvl__69,
+        ic:measurement_SmartSense_Button_2__battery_lvl__7,
+        ic:measurement_SmartSense_Button_2__battery_lvl__70,
+        ic:measurement_SmartSense_Button_2__battery_lvl__71,
+        ic:measurement_SmartSense_Button_2__battery_lvl__72,
+        ic:measurement_SmartSense_Button_2__battery_lvl__73,
+        ic:measurement_SmartSense_Button_2__battery_lvl__74,
+        ic:measurement_SmartSense_Button_2__battery_lvl__75,
+        ic:measurement_SmartSense_Button_2__battery_lvl__76,
+        ic:measurement_SmartSense_Button_2__battery_lvl__77,
+        ic:measurement_SmartSense_Button_2__battery_lvl__78,
+        ic:measurement_SmartSense_Button_2__battery_lvl__79,
+        ic:measurement_SmartSense_Button_2__battery_lvl__8,
+        ic:measurement_SmartSense_Button_2__battery_lvl__80,
+        ic:measurement_SmartSense_Button_2__battery_lvl__81,
+        ic:measurement_SmartSense_Button_2__battery_lvl__82,
+        ic:measurement_SmartSense_Button_2__battery_lvl__83,
+        ic:measurement_SmartSense_Button_2__battery_lvl__84,
+        ic:measurement_SmartSense_Button_2__battery_lvl__85,
+        ic:measurement_SmartSense_Button_2__battery_lvl__86,
+        ic:measurement_SmartSense_Button_2__battery_lvl__87,
+        ic:measurement_SmartSense_Button_2__battery_lvl__88,
+        ic:measurement_SmartSense_Button_2__battery_lvl__89,
+        ic:measurement_SmartSense_Button_2__battery_lvl__9,
+        ic:measurement_SmartSense_Button_2__battery_lvl__90,
+        ic:measurement_SmartSense_Button_2__battery_lvl__91,
+        ic:measurement_SmartSense_Button_2__battery_lvl__92,
+        ic:measurement_SmartSense_Button_2__battery_lvl__93,
+        ic:measurement_SmartSense_Button_2__battery_lvl__94,
+        ic:measurement_SmartSense_Button_2__battery_lvl__95,
+        ic:measurement_SmartSense_Button_2__battery_lvl__96,
+        ic:measurement_SmartSense_Button_2__battery_lvl__97,
+        ic:measurement_SmartSense_Button_2__battery_lvl__98,
+        ic:measurement_SmartSense_Button_2__battery_lvl__99,
+        ic:measurement_SmartSense_Button_2__status__0,
+        ic:measurement_SmartSense_Button_2__status__1,
+        ic:measurement_SmartSense_Button_2__status__10,
+        ic:measurement_SmartSense_Button_2__status__100,
+        ic:measurement_SmartSense_Button_2__status__101,
+        ic:measurement_SmartSense_Button_2__status__102,
+        ic:measurement_SmartSense_Button_2__status__103,
+        ic:measurement_SmartSense_Button_2__status__104,
+        ic:measurement_SmartSense_Button_2__status__105,
+        ic:measurement_SmartSense_Button_2__status__106,
+        ic:measurement_SmartSense_Button_2__status__107,
+        ic:measurement_SmartSense_Button_2__status__108,
+        ic:measurement_SmartSense_Button_2__status__109,
+        ic:measurement_SmartSense_Button_2__status__11,
+        ic:measurement_SmartSense_Button_2__status__110,
+        ic:measurement_SmartSense_Button_2__status__111,
+        ic:measurement_SmartSense_Button_2__status__112,
+        ic:measurement_SmartSense_Button_2__status__113,
+        ic:measurement_SmartSense_Button_2__status__114,
+        ic:measurement_SmartSense_Button_2__status__115,
+        ic:measurement_SmartSense_Button_2__status__116,
+        ic:measurement_SmartSense_Button_2__status__117,
+        ic:measurement_SmartSense_Button_2__status__118,
+        ic:measurement_SmartSense_Button_2__status__119,
+        ic:measurement_SmartSense_Button_2__status__12,
+        ic:measurement_SmartSense_Button_2__status__120,
+        ic:measurement_SmartSense_Button_2__status__121,
+        ic:measurement_SmartSense_Button_2__status__122,
+        ic:measurement_SmartSense_Button_2__status__123,
+        ic:measurement_SmartSense_Button_2__status__124,
+        ic:measurement_SmartSense_Button_2__status__125,
+        ic:measurement_SmartSense_Button_2__status__126,
+        ic:measurement_SmartSense_Button_2__status__127,
+        ic:measurement_SmartSense_Button_2__status__128,
+        ic:measurement_SmartSense_Button_2__status__129,
+        ic:measurement_SmartSense_Button_2__status__13,
+        ic:measurement_SmartSense_Button_2__status__130,
+        ic:measurement_SmartSense_Button_2__status__131,
+        ic:measurement_SmartSense_Button_2__status__132,
+        ic:measurement_SmartSense_Button_2__status__133,
+        ic:measurement_SmartSense_Button_2__status__134,
+        ic:measurement_SmartSense_Button_2__status__135,
+        ic:measurement_SmartSense_Button_2__status__136,
+        ic:measurement_SmartSense_Button_2__status__137,
+        ic:measurement_SmartSense_Button_2__status__138,
+        ic:measurement_SmartSense_Button_2__status__139,
+        ic:measurement_SmartSense_Button_2__status__14,
+        ic:measurement_SmartSense_Button_2__status__140,
+        ic:measurement_SmartSense_Button_2__status__141,
+        ic:measurement_SmartSense_Button_2__status__142,
+        ic:measurement_SmartSense_Button_2__status__143,
+        ic:measurement_SmartSense_Button_2__status__144,
+        ic:measurement_SmartSense_Button_2__status__145,
+        ic:measurement_SmartSense_Button_2__status__146,
+        ic:measurement_SmartSense_Button_2__status__147,
+        ic:measurement_SmartSense_Button_2__status__148,
+        ic:measurement_SmartSense_Button_2__status__15,
+        ic:measurement_SmartSense_Button_2__status__16,
+        ic:measurement_SmartSense_Button_2__status__17,
+        ic:measurement_SmartSense_Button_2__status__18,
+        ic:measurement_SmartSense_Button_2__status__19,
+        ic:measurement_SmartSense_Button_2__status__2,
+        ic:measurement_SmartSense_Button_2__status__20,
+        ic:measurement_SmartSense_Button_2__status__21,
+        ic:measurement_SmartSense_Button_2__status__22,
+        ic:measurement_SmartSense_Button_2__status__23,
+        ic:measurement_SmartSense_Button_2__status__24,
+        ic:measurement_SmartSense_Button_2__status__25,
+        ic:measurement_SmartSense_Button_2__status__26,
+        ic:measurement_SmartSense_Button_2__status__27,
+        ic:measurement_SmartSense_Button_2__status__28,
+        ic:measurement_SmartSense_Button_2__status__29,
+        ic:measurement_SmartSense_Button_2__status__3,
+        ic:measurement_SmartSense_Button_2__status__30,
+        ic:measurement_SmartSense_Button_2__status__31,
+        ic:measurement_SmartSense_Button_2__status__32,
+        ic:measurement_SmartSense_Button_2__status__33,
+        ic:measurement_SmartSense_Button_2__status__34,
+        ic:measurement_SmartSense_Button_2__status__35,
+        ic:measurement_SmartSense_Button_2__status__36,
+        ic:measurement_SmartSense_Button_2__status__37,
+        ic:measurement_SmartSense_Button_2__status__38,
+        ic:measurement_SmartSense_Button_2__status__39,
+        ic:measurement_SmartSense_Button_2__status__4,
+        ic:measurement_SmartSense_Button_2__status__40,
+        ic:measurement_SmartSense_Button_2__status__41,
+        ic:measurement_SmartSense_Button_2__status__42,
+        ic:measurement_SmartSense_Button_2__status__43,
+        ic:measurement_SmartSense_Button_2__status__44,
+        ic:measurement_SmartSense_Button_2__status__45,
+        ic:measurement_SmartSense_Button_2__status__46,
+        ic:measurement_SmartSense_Button_2__status__47,
+        ic:measurement_SmartSense_Button_2__status__48,
+        ic:measurement_SmartSense_Button_2__status__49,
+        ic:measurement_SmartSense_Button_2__status__5,
+        ic:measurement_SmartSense_Button_2__status__50,
+        ic:measurement_SmartSense_Button_2__status__51,
+        ic:measurement_SmartSense_Button_2__status__52,
+        ic:measurement_SmartSense_Button_2__status__53,
+        ic:measurement_SmartSense_Button_2__status__54,
+        ic:measurement_SmartSense_Button_2__status__55,
+        ic:measurement_SmartSense_Button_2__status__56,
+        ic:measurement_SmartSense_Button_2__status__57,
+        ic:measurement_SmartSense_Button_2__status__58,
+        ic:measurement_SmartSense_Button_2__status__59,
+        ic:measurement_SmartSense_Button_2__status__6,
+        ic:measurement_SmartSense_Button_2__status__60,
+        ic:measurement_SmartSense_Button_2__status__61,
+        ic:measurement_SmartSense_Button_2__status__62,
+        ic:measurement_SmartSense_Button_2__status__63,
+        ic:measurement_SmartSense_Button_2__status__64,
+        ic:measurement_SmartSense_Button_2__status__65,
+        ic:measurement_SmartSense_Button_2__status__66,
+        ic:measurement_SmartSense_Button_2__status__67,
+        ic:measurement_SmartSense_Button_2__status__68,
+        ic:measurement_SmartSense_Button_2__status__69,
+        ic:measurement_SmartSense_Button_2__status__7,
+        ic:measurement_SmartSense_Button_2__status__70,
+        ic:measurement_SmartSense_Button_2__status__71,
+        ic:measurement_SmartSense_Button_2__status__72,
+        ic:measurement_SmartSense_Button_2__status__73,
+        ic:measurement_SmartSense_Button_2__status__74,
+        ic:measurement_SmartSense_Button_2__status__75,
+        ic:measurement_SmartSense_Button_2__status__76,
+        ic:measurement_SmartSense_Button_2__status__77,
+        ic:measurement_SmartSense_Button_2__status__78,
+        ic:measurement_SmartSense_Button_2__status__79,
+        ic:measurement_SmartSense_Button_2__status__8,
+        ic:measurement_SmartSense_Button_2__status__80,
+        ic:measurement_SmartSense_Button_2__status__81,
+        ic:measurement_SmartSense_Button_2__status__82,
+        ic:measurement_SmartSense_Button_2__status__83,
+        ic:measurement_SmartSense_Button_2__status__84,
+        ic:measurement_SmartSense_Button_2__status__85,
+        ic:measurement_SmartSense_Button_2__status__86,
+        ic:measurement_SmartSense_Button_2__status__87,
+        ic:measurement_SmartSense_Button_2__status__88,
+        ic:measurement_SmartSense_Button_2__status__89,
+        ic:measurement_SmartSense_Button_2__status__9,
+        ic:measurement_SmartSense_Button_2__status__90,
+        ic:measurement_SmartSense_Button_2__status__91,
+        ic:measurement_SmartSense_Button_2__status__92,
+        ic:measurement_SmartSense_Button_2__status__93,
+        ic:measurement_SmartSense_Button_2__status__94,
+        ic:measurement_SmartSense_Button_2__status__95,
+        ic:measurement_SmartSense_Button_2__status__96,
+        ic:measurement_SmartSense_Button_2__status__97,
+        ic:measurement_SmartSense_Button_2__status__98,
+        ic:measurement_SmartSense_Button_2__status__99 ;
+    saref:measuresProperty ic:property_SmartSense_Button_2__battery_lvl_,
+        ic:property_SmartSense_Button_2__status_ ;
+    s4bldg:isContainedIn ic:room_urn-Room-SmartThings-38f802d2-bb3c-4bf4-ba28-23c5ae3a64d0 ;
+    s4ener:serialNumber "urn:Device:SmartThings:c6e8db8f-6f27-4482-979e-2b790628f902"^^xsd:string .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__0 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__1 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__10 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__100 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__101 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__102 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__103 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-26T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__104 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__105 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-28T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__106 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__107 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__108 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-31T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__109 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__11 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__110 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__111 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__112 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__113 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__114 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__115 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__116 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__117 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__118 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__119 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__12 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__120 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__121 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__122 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__123 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-19T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__124 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__125 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__126 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__127 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__128 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__129 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__13 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__130 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-26T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__131 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__132 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-28T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__133 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__134 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__135 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__136 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__137 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__138 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__139 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__14 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__140 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__141 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__142 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__143 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__144 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__145 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-11T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__146 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__147 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__148 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__15 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__16 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__17 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__18 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__19 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__2 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__20 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__21 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__22 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__23 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__24 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__25 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__26 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__27 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__28 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__29 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__3 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__30 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__31 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__32 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__33 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__34 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__35 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__36 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__37 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__38 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__39 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__4 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__40 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__41 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__42 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__43 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__44 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__45 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__46 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__47 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__48 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__49 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__5 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__50 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-31T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__51 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-31T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__52 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__53 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__54 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__55 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__56 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__57 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__58 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__59 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__6 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__60 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__61 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__62 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__63 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__64 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__65 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__66 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__67 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__68 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__69 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__7 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__70 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__71 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__72 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__73 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__74 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-26T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__75 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__76 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-28T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__77 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__78 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__79 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__8 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__80 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__81 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__82 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__83 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__84 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__85 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__86 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__87 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__88 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-11T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__89 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__9 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__90 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__91 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__92 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__93 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__94 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__95 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__96 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-19T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__97 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__98 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__battery_lvl__99 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "34.0"^^xsd:float ;
+    saref:isMeasuredIn om:percent ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__battery_lvl_ .
+
+ic:measurement_SmartSense_Button_2__status__0 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__1 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__10 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__100 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__101 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__102 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__103 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-26T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__104 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__105 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-28T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__106 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__107 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__108 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-31T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__109 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__11 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__110 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__111 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__112 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__113 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__114 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__115 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__116 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__117 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__118 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__119 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__12 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__120 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__121 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__122 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__123 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-19T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__124 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__125 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__126 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__127 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__128 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__129 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__13 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__130 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-26T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__131 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__132 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-28T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__133 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__134 a saref:Measurement ;
+    saref:hasTimestamp "2022-06-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__135 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__136 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__137 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__138 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__139 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__14 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__140 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__141 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__142 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__143 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__144 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__145 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-11T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__146 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__147 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__148 a saref:Measurement ;
+    saref:hasTimestamp "2022-07-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__15 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__16 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__17 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__18 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__19 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__2 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__20 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__21 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__22 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__23 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__24 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__25 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__26 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__27 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__28 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__29 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__3 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__30 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__31 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__32 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__33 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__34 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__35 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__36 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__37 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__38 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__39 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__4 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__40 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__41 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__42 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__43 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__44 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__45 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__46 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__47 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__48 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__49 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__5 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__50 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-31T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__51 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-31T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__52 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__53 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__54 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__55 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__56 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__57 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-10T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__58 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__59 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__6 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__60 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__61 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__62 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__63 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__64 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__65 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__66 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__67 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__68 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__69 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-23T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__7 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__70 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__71 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-24T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__72 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__73 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-25T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__74 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-26T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__75 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-27T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__76 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-28T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__77 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-29T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__78 a saref:Measurement ;
+    saref:hasTimestamp "2022-04-30T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__79 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-01T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__8 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__80 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-02T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__81 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-03T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__82 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-04T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__83 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__84 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-06T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__85 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-07T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__86 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-08T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__87 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-09T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__88 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-11T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__89 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-12T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__9 a saref:Measurement ;
+    saref:hasTimestamp "2022-03-05T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__90 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-13T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__91 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-14T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__92 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-15T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__93 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-16T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__94 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-17T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__95 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-18T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__96 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-19T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__97 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-20T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__98 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-21T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+ic:measurement_SmartSense_Button_2__status__99 a saref:Measurement ;
+    saref:hasTimestamp "2022-05-22T23:00:00"^^xsd:dateTime ;
+    saref:hasValue "0"^^xsd:int ;
+    saref:isMeasuredIn om:bit ;
+    saref:relatesToProperty ic:property_SmartSense_Button_2__status_ .
+
+s4ener:Device rdfs:subClassOf saref:Device .
+
+ic:room_urn-Room-SmartThings-38f802d2-bb3c-4bf4-ba28-23c5ae3a64d0 a s4bldg:BuildingSpace ;
+    s4bldg:contains ic:SmartSense_Button_2 ;
+    s4bldg:isSpaceOf ic:building_urn-Building-SmartThings-d563d271-4855-4728-8367-cbfb205cf3da .
+
+ic:property_SmartSense_Button_2__battery_lvl_ a ic:BatteryLevel .
+
+ic:property_SmartSense_Button_2__status_ a ic:DeviceStatus .
+
