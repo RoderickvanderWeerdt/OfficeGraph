@@ -7,6 +7,21 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dbr: <https://dbpedia.org/resource/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<https://zenodo.org/doi/10.5281/zenodo.10245814> a dcat:Catalog ;
+	dcterms:title "Catalog of OfficeGraph and its enrichments"@en ;
+	rdfs:label "OfficeGraph Catalog"@en ;
+	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>  ;
+	dcat:dataset ic:OfficeGraph;
+	dcat:dataset ic:OfficeGraph_inRooms;
+	dcat:dataset ic:OfficeGraph_WikiData;
+	dcat:dataset ic:OfficeGraph_MLEnrichment;
+	dcterms:temporal [ a dcterms:PeriodOfTime ;
+		dcat:startDate "2022-03-01"^^xsd:date ; 
+		dcat:endDate   "2023-01-31"^^xsd:date ;
+	];
+.
 
 ic:OfficeGraph a void:Dataset;
 	dcterms:title "OfficeGraph";
