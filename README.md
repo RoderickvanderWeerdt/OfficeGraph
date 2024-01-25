@@ -18,6 +18,12 @@ OfficeGraph is expressed in the [saref](https://saref.etsi.org) ontology, a doma
 For each individual device the “device template” creates triples for all consistent information about the device, such as the device type and model. For each individual measurement the “measurement template” creates triples to describe the measurement, its value, unit of measurement and timestamp. The device instance and measurement instances are connected in two ways, directly through the saref:makesMeasurement property, and indirectly through the sasref:Property instance. The latter describes what has been measured, such as temperature or humidity.
 In addition to the saref ontology we use two of its extensions. [saref4bldg](https://saref.etsi.org/saref4bldg/v1.1.2/), which provides classes used to describe the relation between devices and rooms, and between rooms and buildings. The other extension is [saref4ener](https://saref.etsi.org/saref4ener/v1.1.2/), which provides additional classes for information about the device. As suggested in the saref documentation the om1.8 ontology is used to represent the units of measure of the measurements.
 
+## Using OfficeGraph
+
+- **Zenodo**: The dataset is archieved on Zenodo, including the raw json files used to create OfficeGraph. [DOI 10.5281/zenodo.10245814](https://zenodo.org/records/10566775)<br/>
+- **Live SPARQL endpoint**: OfficeGraph is available as a live triplestore and can be queries throug a [YASGUI editor](https://data.interconnect.labs.vu.nl/yasgui/index.html), and directly with the endpoint: [https://data.interconnect.labs.vu.nl/sparql](https://data.interconnect.labs.vu.nl/sparql).<br/>
+- **Jupyter notebook examples**: Examples of using the endpoint are available in this repository: [Data analytics cases](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main/data%20analytics%20use%20cases).<br/>
+
 
 The resource paper describing this dataset is currently under submission.
 
